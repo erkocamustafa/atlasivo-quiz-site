@@ -1,0 +1,109 @@
+{
+  "id": "history_ottoman_01",
+  "title": "History of the Ottoman Empire Quiz",
+  "description": "Test your knowledge about the Ottoman Empire with this quiz!",
+  "mode": "trivia",
+  "shareText": "I scored ",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When was the Ottoman Empire founded?",
+      "options": [
+        { "id": "a", "label": "1071" },
+        { "id": "b", "label": "1453"},
+        { "id": "c", "label": "1299", "correct": true },
+        { "id": "d", "label": "1682" }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "The Ottoman Empire reached its peak during the reign of:",
+      "options": [
+        { "id": "a", "label": "Suleiman the Magnificent", "correct": true },
+        { "id": "b", "label": "Mehmed II" },
+        { "id": "c", "label": "Selim I" },
+        { "id": "d", "label": "Osman I" }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "What was the elite infantry unit of the Ottoman military called?",
+      "options": [
+        { "id": "a", "label": "Janissaries", "correct": true },
+        { "id": "b", "label": "Sipahis" },
+        { "id": "c", "label": "Spartiates" },
+        { "id": "d", "label": "Bashi-bazouks" }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "In which year did the Ottoman Empire officially dissolve?",
+      "options": [
+        { "id": "a", "label": "1914" },
+        { "id": "b", "label": "1918" },
+        { "id": "c", "label": "1922", "correct": true },
+        { "id": "d", "label": "1923" }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Who was the last Sultan of the Ottoman Empire?",
+      "options": [
+        { "id": "a", "label": "Mehmed VI", "correct": true },
+        { "id": "b", "label": "Murad V"},
+        { "id": "c", "label": "Selim III" },
+        { "id": "d", "label": "Suleiman the Magnificent" }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Which famous Ottoman architectural masterpiece was built by architect Mimar Sinan?",
+      "options": [
+        { "id": "a", "label": "Süleymaniye Mosque", "correct": true },
+        { "id": "b", "label": "Blue Mosque" },
+        { "id": "c", "label": "Hagia Sophia" },
+        { "id": "d", "label": "Dolmabahçe Palace" }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Which of these modern countries was not part of the Ottoman Empire at its height?",
+      "options": [
+        { "id": "a","image": "images/quizzes/flags/eg.svg", "label": "Egypt" },
+        { "id": "b","image": "images/quizzes/flags/hu.svg", "label": "Hungary" },
+        { "id": "c","image": "images/quizzes/flags/in.svg", "label": "India", "correct": true },
+        { "id": "d","image": "images/quizzes/flags/bg.svg", "label": "Bulgaria" }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What was the Ottoman capital before the conquest of Constantinople?",
+      "options": [
+        { "id": "a", "label": "Edirne", "correct": true },
+        { "id": "b", "label": "Bursa" },
+        { "id": "c", "label": "Ankara" },
+        { "id": "d", "label": "Izmir" }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Which trade route was heavily influenced by Ottoman control?",
+      "options": [
+        { "id": "a", "label": "Trans-Saharan Trade Route" },
+        { "id": "b", "label": "Silk Road", "correct": true },
+        { "id": "c", "label": "Amber Road" },
+        { "id": "d", "label": "Spice Route" }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Which admiral is known as the most famous commander of the Ottoman navy?",
+      "options": [
+        { "id": "a", "label": "Hayreddin Barbarossa", "correct": true },
+        { "id": "b", "label": "Piri Reis" },
+        { "id": "c", "label": "Turgut Reis" },
+        { "id": "d", "label": "Kemal Reis" }
+      ]
+    }
+  ]
+}

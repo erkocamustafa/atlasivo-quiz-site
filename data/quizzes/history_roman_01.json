@@ -1,0 +1,112 @@
+{
+  "id": "history_roman_01",
+  "title": "History of the Roman Empire Quiz",
+  "description": "Test your knowledge about the Roman Empire with this quiz!",
+  "mode": "trivia",
+  "shareText": "I scored ",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Who was the first emperor of the Roman Empire?",
+      "options": [
+        { "id": "a", "label": "Nero" },
+        { "id": "b", "label": "Augustus", "correct": true},
+        { "id": "c", "label": "Julius Caesar"},
+        { "id": "d", "label": "Trajan" }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "What was the main unit of the Roman army?",
+      "options": [
+        { "id": "a", "label": "Janissaries"},
+        { "id": "b", "label": "Legion", "correct": true },
+        { "id": "c", "label": "Phalanx" },
+        { "id": "d", "label": "Brigade" }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "What language was primarily spoken in the Roman Empire?",
+      "options": [
+        { "id": "a", "label": "Greek"},
+        { "id": "b", "label": "Etruscan" },
+        { "id": "c", "label": "Latin" , "correct": true},
+        { "id": "d", "label": "Aramaic" }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "The Colosseum in Rome was mainly used for:",
+      "options": [
+        { "id": "a", "label": "Public executions" },
+        { "id": "b", "label": "Religious festivals" },
+        { "id": "c", "label": "Gladiatorial games", "correct": true},
+        { "id": "d", "label": "Military parades" }
+      ],
+      "image": "images/quizzes/quiz_questions/colosseum.jpg"
+    },
+    {
+      "id": "q5",
+      "text": "The Eastern Roman Empire became known as:",
+      "options": [
+        { "id": "a", "label": "Byzantine Empire", "correct": true },
+        { "id": "b", "label": "Holy Roman Empire"},
+        { "id": "c", "label": "Ottoman Empire" },
+        { "id": "d", "label": "Roman Republic" }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Who was the counterpart of Zeus and the king of the Roman gods?",
+      "options": [
+        { "id": "a", "label": "Jupiter", "correct": true },
+        { "id": "b", "label": "Saturn" },
+        { "id": "c", "label": "Mars" },
+        { "id": "d", "label": "Apollo" }
+      ],
+      "image": "images/quizzes/quiz_questions/jupiter_zeus.png"
+    },
+    {
+      "id": "q7",
+      "text": "Which coin was the standard silver currency of the Roman Empire?",
+      "options": [
+        { "id": "a", "label": "Solidus" },
+        { "id": "b", "label": "Drachma" },
+        { "id": "c", "label": "Denarius", "correct": true },
+        { "id": "d", "label": "Aureus" }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Which Roman Emperor famously declared himself “dictator for life”?",
+      "options": [
+        { "id": "a", "label": "Julius Caesar", "correct": true },
+        { "id": "b", "label": "Augustus" },
+        { "id": "c", "label": "Nero" },
+        { "id": "d", "label": "Caligula" }
+      ],
+      "image": "images/quizzes/quiz_questions/caesar.jpg"
+    },
+    {
+      "id": "q9",
+      "text": "In what year did the Roman Republic officially transition into the Roman Empire?",
+      "options": [
+        { "id": "a", "label": "49 BC" },
+        { "id": "b", "label": "27 BC", "correct": true },
+        { "id": "c", "label": "31 BC" },
+        { "id": "d", "label": "13 AD" }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Under which Emperor did the Roman Empire reach its greatest territorial extent?",
+      "options": [
+        { "id": "a", "label": "Gaius Julius Caesar" },
+        { "id": "b", "label": "Hadrian" },
+        { "id": "c", "label": "Marcus Aurelius" },
+        { "id": "d", "label": "Trajan", "correct": true }
+      ]
+    }
+  ]
+}

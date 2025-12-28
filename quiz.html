@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Atlasivo</title>
+    <meta
+      name="description"
+      content="Play personality and trivia quizzes. Share your results. No sign-up required."
+    />
+
+    <!-- ✅ Google Consent Mode: Default (before CMP) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent','default',{
+    ad_storage:'denied',
+    ad_user_data:'denied',
+    ad_personalization:'denied',
+    analytics_storage:'denied'
+  });
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7066298485285992"
+      crossorigin="anonymous"></script>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Atlasivo – Fun Quizzes" />
+    <meta property="og:description" content="Personality & trivia quizzes." />
+    <meta
+      property="og:image"
+      content="https://atlasivo.com/images/og-default.jpg"
+    />
+    <meta property="og:url" content="https://atlasivo.com/quiz.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Atlasivo – Fun Quizzes" />
+    <meta
+      name="twitter:description"
+      content="Play personality & trivia quizzes."
+    />
+    <meta
+      name="twitter:image"
+      content="https://atlasivo.com/images/og-default.jpg"
+    />
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="images/icon-192.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="canonical" href="https://atlasivo.com/quiz.html" />
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/quiz.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Atlasivo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="quizzes.html" class="active">Quizzes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="buttons">
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <!-- Quiz Section -->
+    <main class="container" id="app">
+      <section id="start">
+        <h1 id="quiztitle"></h1>
+        <button id="btnStart" class="btn">Start</button>
+      </section>
+
+      <section id="q" hidden>
+        <div class="progress"><div id="bar"></div></div>
+        <div class="q-header">
+          <span id="counter">Question 1/1</span>
+        </div>
+
+        <div class="q-media thumb"><img id="qImg" alt="" hidden /></div>
+        <h2 id="qText"></h2>
+
+        <div id="qOpts" class="opts"></div>
+
+        <div class="actions">
+          <button id="btnNext" class="btn" disabled>Next</button>
+        </div>
+      </section>
+
+      <!-- Calculating (ara ekran) -->
+      <section
+        class="calc"
+        id="calc"
+        hidden
+        aria-live="polite"
+        aria-atomic="true"
+      >
+        <div class="spinner" aria-hidden="true"></div>
+        <h2>Calculating your result…</h2>
+        <p>This takes just a moment.</p>
+      </section>
+
+      <section class="result" id="res" hidden>
+        <div class="thumb"><img id="rImg" alt="" hidden /></div>
+        <h2 id="rTitle" class="rTitle"></h2>
+        <p id="rDesc" class="rDesc"></p>
+        <div class="share">
+          <button id="btnShare" class="btn secondary">Share</button>
+          <button id="btnRetry" class="btn">Retry</button>
+        </div>
+        <div class="actions" style="margin-top: 10px">
+          <button id="btnReview" class="btn_review">Review answers</button>
+        </div>
+      </section>
+
+      <section class="container" id="review" hidden>
+        <h2 class="heading">Your Answers</h2>
+        <div id="revList" class="review-list"></div>
+        <div class="actions" style="margin-top: 16px">
+          <button id="btnBackToRes" class="btn_review">Back to result</button>
+        </div>
+      </section>
+      <!-- Result Extras -->
+      <section class="res-extra" id="resExtra" hidden>
+        <h3 class="heading">Related Quizzes</h3>
+        <div id="relGrid" class="quiz-grid"></div>
+
+        <div class="cta-row">
+          <a href="quizzes.html" class="btn secondary">See all quizzes</a>
+        </div>
+      </section>
+    </main>
+    <script src="js/script.js" defer></script>
+    <script type="module" src="js/quiz.js"></script>
+  </body>
+</html>

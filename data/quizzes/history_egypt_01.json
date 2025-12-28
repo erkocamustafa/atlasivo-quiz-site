@@ -1,0 +1,110 @@
+{
+  "id": "history_egypt_01",
+  "title": "History of Ancient Egypt Quiz",
+  "description": "Test your knowledge about Ancient Egypt with this quiz!",
+  "mode": "trivia",
+  "shareText": "I scored ",
+"questions": [
+    {
+        "id": "q1",
+        "text": "What river was the lifeline of Ancient Egypt?",
+        "options": [
+            { "id": "a", "label": "Euphrates" },
+            { "id": "b", "label": "Amazon" },
+            { "id": "c", "label": "Nile", "correct": true },
+            { "id": "d", "label": "Tigris" }
+        ]
+    },
+    {
+        "id": "q2",
+        "text": "Who was the sun god in Ancient Egyptian religion?",
+        "options": [
+            { "id": "a", "label": "Anubis" },
+            { "id": "b", "label": "Horus" },
+            { "id": "c", "label": "Ra", "correct": true },
+            { "id": "d", "label": "Osiris" }
+        ]
+    },
+    {
+        "id": "q3",
+        "text": "What material did Ancient Egyptians write on?",
+        "options": [
+            { "id": "a", "label": "Papyrus", "correct": true },
+            { "id": "b", "label": "Parchment" },
+            { "id": "c", "label": "Clay tablets" },
+            { "id": "d", "label": "Stone" }
+        ]
+    },
+    {
+        "id": "q4",
+        "text": "Who was the jackal-headed god associated with mummification?",
+        "options": [
+            { "id": "a", "label": "Set" },
+            { "id": "b", "label": "Anubis", "correct": true },
+            { "id": "c", "label": "Horus" },
+            { "id": "d", "label": "Thoth" }
+        ]
+    },
+    {
+        "id": "q5",
+        "text": "What was the primary purpose of the Sphinx of Giza?",
+        "options": [
+            { "id": "a", "label": "An observatory" },
+            { "id": "b", "label": "A guardian figure", "correct": true },
+            { "id": "c", "label": "A tomb" },
+            { "id": "d", "label": "A temple entrance" }
+        ],
+        "image": "images/quizzes/quiz_questions/sphinx.jpg"
+    },
+    {
+        "id": "q6",
+        "text": "What was the capital of Ancient Egypt during the Old Kingdom?",
+        "options": [
+            { "id": "a", "label": "Luxor" },
+            { "id": "b", "label": "Alexandria" },
+            { "id": "c", "label": "Memphis", "correct": true },
+            { "id": "d", "label": "Thebes" }
+        ]
+    },
+    {
+        "id": "q7",
+        "text": "The Rosetta Stone helped scholars decode Egyptian writing. Which three scripts were inscribed on it?",
+        "options": [
+            { "id": "a", "label": "Latin, Greek, Hieroglyphics" },
+            { "id": "b", "label": "Greek, Hieroglyphics, Demotic", "correct": true },
+            { "id": "c", "label": "Arabic, Coptic, Demotic" },
+            { "id": "d", "label": "Hieroglyphics, Phoenician, Greek" }
+        ]
+    },
+    {
+        "id": "q8",
+        "text": "Which Pharaoh is best known for introducing monotheism?",
+        "options": [
+            { "id": "a", "label": "Thutmose III" },
+            { "id": "b", "label": "Ramses II" },
+            { "id": "c", "label": "Tutankhamun" },
+            { "id": "d", "label": "Akhenaten", "correct": true }
+        ]
+    },
+    {
+        "id": "q9",
+        "text": "Which famous queen allied with Julius Caesar and later Mark Antony?",
+        "options": [
+            { "id": "a", "label": "Hatshepsut" },
+            { "id": "b", "label": "Nefertiti" },
+            { "id": "c", "label": "Cleopatra VII", "correct": true },
+            { "id": "d", "label": "Merneith" }
+        ]
+    },
+    {
+        "id": "q10",
+        "text": "Which Pharaoh had the second longest reign in Egyptian history and is often called \"The Great\"?",
+        "options": [
+            { "id": "a", "label": "Ramses II", "correct": true },
+            { "id": "b", "label": "Tutankhamun" },
+            { "id": "c", "label": "Djoser" },
+            { "id": "d", "label": "Snefru" }
+        ]
+    }
+]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "country_flag_02",
+  "title": "Country Flags Quiz - Easy",
+  "description": "Test your knowledge about country flags with this easy quiz!",
+  "mode": "trivia",
+  "shareText": "I scored ",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Malaysia" },
+        { "id": "b", "label": "United States", "correct": true },
+        { "id": "c", "label": "Liberia" },
+        { "id": "d", "label": "United Kingdom" }
+      ],
+      "image": "images/quizzes/flags/us.svg"
+    },
+    {
+      "id": "q2",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Germany", "correct": true },
+        { "id": "b", "label": "France" },
+        { "id": "c", "label": "Belgium" },
+        { "id": "d", "label": "Netherlands" }
+      ],
+      "image": "images/quizzes/flags/de.svg"
+    },
+    {
+      "id": "q3",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "New Zealand" },
+        { "id": "b", "label": "Australia", "correct": true },
+        { "id": "c", "label": "United Kingdom" },
+        { "id": "d", "label": "Canada" }
+      ],
+      "image": "images/quizzes/flags/au.svg"
+    },
+    {
+      "id": "q4",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Turkiye" },
+        { "id": "b", "label": "Italy" },
+        { "id": "c", "label": "Spain", "correct": true },
+        { "id": "d", "label": "Portugal" }
+      ],
+      "image": "images/quizzes/flags/es.svg"
+    },
+    {
+      "id": "q5",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Iraq" },
+        { "id": "b", "label": "Iran", "correct": true },
+        { "id": "c", "label": "Tajikistan" },
+        { "id": "d", "label": "Afghanistan" }
+      ],
+      "image": "images/quizzes/flags/ir.svg"
+    },
+    {
+      "id": "q6",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Ecuador" },
+        { "id": "b", "label": "Mexico", "correct": true },
+        { "id": "c", "label": "Italy" },
+        { "id": "d", "label": "Hungary" }
+      ],
+      "image": "images/quizzes/flags/mx.svg"
+    },
+    {
+      "id": "q7",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Denmark" },
+        { "id": "b", "label": "Iceland" },
+        { "id": "c", "label": "Norway", "correct": true },
+        { "id": "d", "label": "Sweden" }
+      ],
+      "image": "images/quizzes/flags/no.svg"
+    },
+    {
+      "id": "q8",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Portugal", "correct": true },
+        { "id": "b", "label": "Brazil" },
+        { "id": "c", "label": "Spain" },
+        { "id": "d", "label": "Panama" }
+      ],
+      "image": "images/quizzes/flags/pt.svg"
+    },
+    {
+      "id": "q9",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Croatia" },
+        { "id": "b", "label": "Serbia" },
+        { "id": "c", "label": "Ukraine", "correct": true },
+        { "id": "d", "label": "Sweden" }
+      ],
+      "image": "images/quizzes/flags/ua.svg"
+    },
+    {
+      "id": "q10",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "United States" },
+        { "id": "b", "label": "England" },
+        { "id": "c", "label": "Australia" },
+        { "id": "d", "label": "Great Britain", "correct": true }
+      ],
+      "image": "images/quizzes/flags/gb.svg"
+    }
+  ]
+}

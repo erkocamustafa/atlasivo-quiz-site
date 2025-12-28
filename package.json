@@ -1,0 +1,16 @@
+{
+  "name": "atlasivo.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "optimize:quiz": "node tools/optimize-quiz-images.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "glob": "^11.0.3",
+    "sharp": "^0.34.4"
+  }
+}

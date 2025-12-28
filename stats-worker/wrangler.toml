@@ -1,0 +1,9 @@
+name = "atlasivo-stats"
+workers_dev = true
+main = "worker.js"
+compatibility_date = "2024-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "atlasivo-db"
+database_id = "84b07675-ea07-496c-8cf6-f503ea8d5655"

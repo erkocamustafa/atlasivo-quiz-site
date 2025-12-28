@@ -1,0 +1,119 @@
+{
+  "id": "country_flag_04",
+  "title": "Country Flags Quiz - Medium",
+  "description": "Test your knowledge about country flags with this medium quiz!",
+  "mode": "trivia",
+  "shareText": "I scored ",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Austria", "correct": true },
+        { "id": "b", "label": "Latvia" },
+        { "id": "c", "label": "Poland" },
+        { "id": "d", "label": "Malta" }
+      ],
+      "image": "images/quizzes/flags/at.svg"
+    },
+    {
+      "id": "q2",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "United States"},
+        { "id": "b", "label": "Malaysia", "correct": true },
+        { "id": "c", "label": "Liberia" },
+        { "id": "d", "label": "Indonesia" }
+      ],
+      "image": "images/quizzes/flags/my.svg"
+    },
+    {
+      "id": "q3",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Uzbekistan"},
+        { "id": "b", "label": "Kyrgyzstan" },
+        { "id": "c", "label": "Azerbaijan", "correct": true },
+        { "id": "d", "label": "Turkmenistan"}
+      ],
+      "image": "images/quizzes/flags/az.svg"
+    },
+    {
+      "id": "q4",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Hungary"},
+        { "id": "b", "label": "Slovakia" },
+        { "id": "c", "label": "Serbia" },
+        { "id": "d", "label": "Czech Republic", "correct": true }
+      ],
+      "image": "images/quizzes/flags/cz.svg"
+    },
+    {
+      "id": "q5",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Iceland", "correct": true },
+        { "id": "b", "label": "Faroe Islands" },
+        { "id": "c", "label": "Sweden" },
+        { "id": "d", "label": "Norway" }
+      ],
+      "image": "images/quizzes/flags/is.svg"
+    },
+    {
+      "id": "q6",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Tunisia"},
+        { "id": "b", "label": "Algeria", "correct": true },
+        { "id": "c", "label": "Pakistan"},
+        { "id": "d", "label": "Morocco" }
+      ],
+      "image": "images/quizzes/flags/dz.svg"
+    },
+    {
+      "id": "q7",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Kyrgyzstan"},
+        { "id": "b", "label": "Uzbekistan" },
+        { "id": "c", "label": "Kazakhstan", "correct": true },
+        { "id": "d", "label": "Turkmenistan"}
+      ],
+      "image": "images/quizzes/flags/kz.svg"
+    },
+    {
+      "id": "q8",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Jordan"},
+        { "id": "b", "label": "Qatar"},
+        { "id": "c", "label": "Bahrain" },
+        { "id": "d", "label": "Lebanon", "correct": true }
+      ],
+      "image": "images/quizzes/flags/lb.svg"
+    },
+    {
+      "id": "q9",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Morocco", "correct": true },
+        { "id": "b", "label": "Tunisia" },
+        { "id": "c", "label": "Sudan" },
+        { "id": "d", "label": "Maldives" }
+      ],
+      "image": "images/quizzes/flags/ma.svg"
+    },
+    {
+      "id": "q10",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Tanzania"},
+        { "id": "b", "label": "Kenya", "correct": true },
+        { "id": "c", "label": "Lesotho"},
+        { "id": "d", "label": "Eswatini" }
+      ],
+      "image": "images/quizzes/flags/ke.svg"
+    }
+  ]
+}

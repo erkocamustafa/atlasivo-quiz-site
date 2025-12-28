@@ -1,0 +1,119 @@
+{
+  "id": "country_flag_05",
+  "title": "Country Flags Quiz - Hard",
+  "description": "Test your knowledge about country flags with this hard quiz!",
+  "mode": "trivia",
+  "shareText": "I scored ",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Romania" },
+        { "id": "b", "label": "Andorra", "correct": true },
+        { "id": "c", "label": "Moldova"},
+        { "id": "d", "label": "Chad" }
+      ],
+      "image": "images/quizzes/flags/ad.svg"
+    },
+    {
+      "id": "q2",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Haiti"},
+        { "id": "b", "label": "Laos" },
+        { "id": "c", "label": "Cambodia", "correct": true  },
+        { "id": "d", "label": "Thailand"}
+      ],
+      "image": "images/quizzes/flags/kh.svg"
+    },
+    {
+      "id": "q3",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Belarus", "correct": true  },
+        { "id": "b", "label": "Turkmenistan"},
+        { "id": "c", "label": "Hungary" },
+        { "id": "d", "label": "Bulgaria" }
+      ],
+      "image": "images/quizzes/flags/by.svg"
+    },
+    {
+      "id": "q4",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Belarus" },
+        { "id": "b", "label": "Latvia" },
+        { "id": "c", "label": "England" },
+        { "id": "d", "label": "Georgia", "correct": true}
+      ],
+      "image": "images/quizzes/flags/ge.svg"
+    },
+    {
+      "id": "q5",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Kyrgyzstan", "correct": true },
+        { "id": "b", "label": "Mongolia"},
+        { "id": "c", "label": "Morocco" },
+        { "id": "d", "label": "Tajikistan" }
+      ],
+      "image": "images/quizzes/flags/kg.svg"
+    },
+    {
+      "id": "q6",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "San Marino" },
+        { "id": "b", "label": "Sao Tome and Principe"},
+        { "id": "c", "label": "Saint Kitts and Nevis" },
+        { "id": "d", "label": "Saint Lucia", "correct": true }
+      ],
+      "image": "images/quizzes/flags/lc.svg"
+    },
+    {
+      "id": "q7",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Burundi" },
+        { "id": "b", "label": "Rwanda" },
+        { "id": "c", "label": "Angola", "correct": true },
+        { "id": "d", "label": "Zambia" }
+      ],
+      "image": "images/quizzes/flags/ao.svg"
+    },
+    {
+      "id": "q8",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Vatican City" },
+        { "id": "b", "label": "Brunei", "correct": true  },
+        { "id": "c", "label": "Bhutan" },
+        { "id": "d", "label": "Malaysia" }
+      ],
+      "image": "images/quizzes/flags/bn.svg"
+    },
+    {
+      "id": "q9",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Finland" },
+        { "id": "b", "label": "Estonia", "correct": true },
+        { "id": "c", "label": "Bulgaria"},
+        { "id": "d", "label": "Lithuania" }
+      ],
+      "image": "images/quizzes/flags/ee.svg"
+    },
+    {
+      "id": "q10",
+      "text": "Which country does this flag belong to?",
+      "options": [
+        { "id": "a", "label": "Brunei" },
+        { "id": "b", "label": "Myanmar" },
+        { "id": "c", "label": "Bhutan", "correct": true  },
+        { "id": "d", "label": "China"}
+      ],
+      "image": "images/quizzes/flags/bt.svg"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Atlasivo – Fun Personality & Trivia Quizzes</title>
+  <meta name="description" content="Play personality and trivia quizzes. Share your results. No sign-up required.">
+
+  <!-- ✅ Google Consent Mode: Default (before CMP) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent','default',{
+    ad_storage:'denied',
+    ad_user_data:'denied',
+    ad_personalization:'denied',
+    analytics_storage:'denied'
+  });
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7066298485285992"
+      crossorigin="anonymous"></script>
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Atlasivo – Fun Quizzes">
+  <meta property="og:description" content="Personality & trivia quizzes.">
+  <meta property="og:image" content="https://atlasivo.com/images/og-default.jpg">
+  <meta property="og:url" content="https://atlasivo.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Atlasivo – Fun Quizzes">
+  <meta name="twitter:description" content="Play personality & trivia quizzes.">
+  <meta name="twitter:image" content="https://atlasivo.com/images/og-default.jpg">
+
+  <!-- Icons / PWA -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://atlasivo.com/">
+
+  <!-- CSS -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+  <body>
+    <!-- Header Section -->
+    <header class="header home-header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="Atlasivo" />
+      </a>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="buttons">
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <!-- Home Section -->
+    <section class="home" id="anasayfa">
+    <div class="glass-container">
+        <div class="content">
+            <h1>Push Your Limits!</h1>
+            <p>Take fun personality quizzes, test your knowledge, and discover who you really are with Atlasivo.</p>
+            <div class="button-group">
+                <a href="#home-most" class="btn btn-primary">Start Quizzes</a>
+                <a href="about.html" class="btn btn-secondary">About Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+</section>
+    <main class="container">
+      <!-- Most Solved -->
+      <section>
+        <h2 class="heading">Most Solved</h2>
+        <div id="home-most" class="quiz-grid"></div>
+      </section>
+
+      <!-- Latest Added -->
+      <section>
+        <h2 class="heading">Latest Added</h2>
+        <div id="home-latest" class="quiz-grid"></div>
+      </section>
+
+      <!-- Personality Quizzes -->
+      <section>
+        <h2 class="heading">Personality Quizzes</h2>
+        <div id="home-personality" class="quiz-grid"></div>
+      </section>
+
+      <!-- Trivia Quizzes -->
+      <section>
+        <h2 class="heading">Trivia Quizzes</h2>
+        <div id="home-trivia" class="quiz-grid"></div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="share">
+        <a href="https://instagram.com/atlasivo"
+          class="fab fa-instagram"
+          aria-label="Atlasivo on Instagram"
+          target="_blank" rel="noopener noreferrer"></a>
+
+        <a href="https://youtube.com/@Atlasivo"
+          class="fab fa-youtube"
+          aria-label="Atlasivo on YouTube"
+          target="_blank" rel="noopener noreferrer"></a>
+
+        <a href="https://tiktok.com/@atlasivo"
+          class="fab fa-tiktok"
+          aria-label="Atlasivo on TikTok"
+          target="_blank" rel="noopener noreferrer"></a>
+      </div>
+      <div class="links">
+        <a href="index.html" class="active">Home</a>
+        <a href="quizzes.html">Quizzes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="credit">
+        created by <span>Mustafa ERKOCA</span> | all rights reserved!
+      </div>
+    </section>
+    <!-- JavaScript -->
+      <script src="js/script.js" defer></script>
+      <script type="module" src="js/home.js"></script>
+  </body>
+</html>

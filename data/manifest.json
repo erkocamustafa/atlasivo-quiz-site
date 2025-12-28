@@ -1,0 +1,121 @@
+[
+  {
+    "id": "country-fit",
+    "title": "Which Country Should You Live In?",
+    "description": "Are you a mountain person or a beach lover? Take this personality test to find out which country matches your lifestyle perfectly.",
+    "type": "Personality",
+    "categories": ["Personality","Travel"],
+    "cover": "images/quizzes/quiz_thumbs/country-fit.jpg",
+    "file": "data/quizzes/country-fit.json",
+    "createdAt": "2025-08-25T10:00:00Z",
+    "updatedAt": "2025-08-25T10:00:00Z"
+  },
+
+  {
+    "id": "country_flag_01",
+    "title": "Country Flags Quiz - Easy",
+    "description": "Test your knowledge about country flags with this easy quiz!",
+    "type": "Trivia",
+    "categories": ["flags"],
+    "cover": "images/quizzes/quiz_thumbs/flag_quiz_easy.png",
+    "file": "data/quizzes/country_flag_01.json",
+    "createdAt": "2025-08-24T10:00:00Z",
+    "updatedAt": "2025-08-24T10:00:00Z"
+  },
+
+  {
+    "id": "country_flag_02",
+    "title": "Country Flags Quiz - Easy",
+    "description": "Test your knowledge about country flags with this easy quiz!",
+    "type": "Trivia",
+    "categories": ["flags"],
+    "cover": "images/quizzes/quiz_thumbs/flag_quiz_easy.png",
+    "file": "data/quizzes/country_flag_02.json",
+    "createdAt": "2025-08-25T10:00:00Z",
+    "updatedAt": "2025-08-25T10:00:00Z"
+  },
+
+  {
+    "id": "country_flag_03",
+    "title": "Country Flags Quiz - Medium",
+    "description": "Test your knowledge about country flags with this medium difficulty quiz!",
+    "type": "Trivia",
+    "categories": ["flags"],
+    "cover": "images/quizzes/quiz_thumbs/flag_quiz_medium.png",
+    "file": "data/quizzes/country_flag_03.json",
+    "createdAt": "2025-08-26T10:00:00Z",
+    "updatedAt": "2025-08-26T10:00:00Z"
+  },
+
+  {
+    "id": "country_flag_04",
+    "title": "Country Flags Quiz - Medium",
+    "description": "Test your knowledge about country flags with this medium difficulty quiz!",
+    "type": "Trivia",
+    "categories": ["flags"],
+    "cover": "images/quizzes/quiz_thumbs/flag_quiz_medium.png",
+    "file": "data/quizzes/country_flag_04.json",
+    "createdAt": "2025-08-30T10:00:00Z",
+    "updatedAt": "2025-08-30T10:00:00Z"
+  },
+
+  {
+    "id": "country_flag_05",
+    "title": "Country Flags Quiz - Hard",
+    "description": "Test your knowledge about country flags with this hard difficulty quiz!",
+    "type": "Trivia",
+    "categories": ["flags"],
+    "cover": "images/quizzes/quiz_thumbs/flag_quiz_hard.png",
+    "file": "data/quizzes/country_flag_05.json",
+    "createdAt": "2025-08-31T10:00:00Z",
+    "updatedAt": "2025-08-31T10:00:00Z"
+  },
+
+  {
+    "id": "country_flag_06",
+    "title": "Country Flags Quiz - Hard",
+    "description": "Test your knowledge about country flags with this hard difficulty quiz!",
+    "type": "Trivia",
+    "categories": ["flags"],
+    "cover": "images/quizzes/quiz_thumbs/flag_quiz_hard.png",
+    "file": "data/quizzes/country_flag_06.json",
+    "createdAt": "2025-09-05T10:00:00Z",
+    "updatedAt": "2025-09-05T10:00:00Z"
+  },
+
+  {
+    "id": "history_ottoman_01",
+    "title": "History of the Ottoman Empire",
+    "description": "Test your knowledge about the Ottoman Empire with this quiz!",
+    "type": "Trivia",
+    "categories": ["history"],
+    "cover": "images/quizzes/quiz_thumbs/history_ottoman_1.png",
+    "file": "data/quizzes/history_ottoman_01.json",
+    "createdAt": "2025-09-15T10:00:00Z",
+    "updatedAt": "2025-09-15T10:00:00Z"
+  },
+
+  {
+    "id": "history_roman_01",
+    "title": "History of the Roman Empire",
+    "description": "Test your knowledge about the Roman Empire with this quiz!",
+    "type": "Trivia",
+    "categories": ["history"],
+    "cover": "images/quizzes/quiz_thumbs/history_roman_1.png",
+    "file": "data/quizzes/history_roman_01.json",
+    "createdAt": "2025-09-20T10:00:00Z",
+    "updatedAt": "2025-09-20T10:00:00Z"
+  },
+
+  {
+    "id": "history_egypt_01",
+    "title": "History of Ancient Egypt",
+    "description": "Test your knowledge about Ancient Egypt with this quiz!",
+    "type": "Trivia",
+    "categories": ["history"],
+    "cover": "images/quizzes/quiz_thumbs/history_egypt_1.png",
+    "file": "data/quizzes/history_egypt_01.json",
+    "createdAt": "2025-09-25T10:00:00Z",
+    "updatedAt": "2025-09-25T10:00:00Z"
+  }
+]
