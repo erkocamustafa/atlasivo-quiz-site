@@ -1,0 +1,317 @@
+{
+  "id": "ultimate_aesthetic",
+  "title": "What Is Your True Aesthetic Vibe?",
+  "description": "Are you a hopeless romantic living in a novel, a futuristic rebel, or a minimalist perfectionist? Answer these 10 deep questions to find the exact color palette of your soul.",
+  "mode": "personality",
+  "shareText": "My true aesthetic is: ",
+  "questions": [
+    {
+      "id": "ideal_home",
+      "text": "Where would you absolutely love to live?",
+      "image": "images/quizzes/quiz_questions/homeentrance_quiz.jpg",
+      "options": [
+        {
+          "id": "loft",
+          "label": "A high-tech loft in a cyberpunk city",
+          "weights": { "cyber neon": 5, "grunge": 2, "minimalist": 1, "dark academia": 0, "cottagecore": 0, "old money": 0, "vaporwave": 3, "boho": 0 }
+        },
+        {
+          "id": "cottage",
+          "label": "A small stone cottage full of plants and flowers",
+          "weights": { "cyber neon": 0, "grunge": 0, "minimalist": 0, "dark academia": 2, "cottagecore": 5, "old money": 0, "vaporwave": 0, "boho": 4 }
+        },
+        {
+          "id": "mansion",
+          "label": "A classic vintage mansion with a huge library",
+          "weights": { "cyber neon": 0, "grunge": 1, "minimalist": 0, "dark academia": 5, "cottagecore": 2, "old money": 4, "vaporwave": 0, "boho": 0 }
+        },
+        {
+          "id": "penthouse",
+          "label": "A luxurious, clean, white penthouse",
+          "weights": { "cyber neon": 1, "grunge": 0, "minimalist": 4, "dark academia": 1, "cottagecore": 0, "old money": 5, "vaporwave": 0, "boho": 0 }
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "text": "Pick an outfit that feels most like 'you'.",
+      "options": [
+        {
+          "id": "vintage",
+          "label": "Tweed jackets, turtlenecks, plaid trousers",
+          "weights": { "dark academia": 5, "old money": 2, "cottagecore": 2, "grunge": 0, "cyber neon": 0, "minimalist": 0, "vaporwave": 0, "boho": 1 }
+        },
+        {
+          "id": "streetwear",
+          "label": "Oversized hoodies, neon accessories, tech-wear",
+          "weights": { "cyber neon": 5, "vaporwave": 4, "grunge": 2, "minimalist": 0, "dark academia": 0, "old money": 0, "cottagecore": 0, "boho": 0 }
+        },
+        {
+          "id": "elegant",
+          "label": "Silk shirts, linen pants, gold jewelry",
+          "weights": { "old money": 5, "minimalist": 3, "dark academia": 2, "cottagecore": 1, "cyber neon": 0, "grunge": 0, "vaporwave": 0, "boho": 1 }
+        },
+        {
+          "id": "rebel",
+          "label": "Leather jackets, ripped jeans, band tees",
+          "weights": { "grunge": 5, "cyber neon": 2, "vaporwave": 1, "dark academia": 1, "boho": 0, "old money": 0, "minimalist": 0, "cottagecore": 0 }
+        }
+      ]
+    },
+    {
+      "id": "hobby",
+      "text": "How do you spend your free time?",
+      "image": "images/quizzes/quiz_questions/painting_quiz.jpg",
+      "options": [
+        {
+          "id": "gaming",
+          "label": "Gaming, coding, or exploring the internet",
+          "weights": { "cyber neon": 5, "vaporwave": 4, "grunge": 1, "minimalist": 1, "dark academia": 0, "old money": 0, "cottagecore": 0, "boho": 0 }
+        },
+        {
+          "id": "reading",
+          "label": "Reading poetry, writing, or visiting museums",
+          "weights": { "dark academia": 5, "cottagecore": 3, "old money": 2, "minimalist": 1, "boho": 2, "grunge": 1, "cyber neon": 0, "vaporwave": 0 }
+        },
+        {
+          "id": "art",
+          "label": "Painting, pottery, or thrifting",
+          "weights": { "boho": 5, "cottagecore": 4, "vaporwave": 3, "grunge": 2, "dark academia": 2, "minimalist": 0, "old money": 0, "cyber neon": 1 }
+        },
+        {
+          "id": "organizing",
+          "label": "Planning, organizing, or doing yoga",
+          "weights": { "minimalist": 5, "old money": 3, "cottagecore": 1, "dark academia": 1, "boho": 2, "cyber neon": 0, "grunge": 0, "vaporwave": 0 }
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "text": "What is playing on your headphones?",
+      "options": [
+        {
+          "id": "classical",
+          "label": "Classical, Jazz, or Movie Soundtracks",
+          "weights": { "dark academia": 5, "old money": 4, "minimalist": 2, "cottagecore": 2, "boho": 0, "grunge": 0, "cyber neon": 0, "vaporwave": 0 }
+        },
+        {
+          "id": "rock",
+          "label": "Rock, Metal, or Alternative",
+          "weights": { "grunge": 5, "cyber neon": 2, "dark academia": 1, "boho": 1, "vaporwave": 0, "old money": 0, "minimalist": 0, "cottagecore": 0 }
+        },
+        {
+          "id": "electronic",
+          "label": "Synthwave, Techno, or Lo-Fi",
+          "weights": { "cyber neon": 5, "vaporwave": 5, "minimalist": 1, "grunge": 1, "dark academia": 0, "old money": 0, "cottagecore": 0, "boho": 0 }
+        },
+        {
+          "id": "folk",
+          "label": "Indie Folk, Acoustic, or Nature Sounds",
+          "weights": { "cottagecore": 5, "boho": 5, "dark academia": 1, "old money": 0, "minimalist": 1, "grunge": 0, "cyber neon": 0, "vaporwave": 0 }
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "text": "Choose your potion.",
+      "options": [
+        {
+          "id": "black_coffee",
+          "label": "Black Coffee or Espresso",
+          "weights": { "dark academia": 4, "minimalist": 4, "grunge": 3, "old money": 2, "cyber neon": 2, "cottagecore": 0, "boho": 1, "vaporwave": 0 }
+        },
+        {
+          "id": "tea",
+          "label": "Herbal Tea with Honey",
+          "weights": { "cottagecore": 5, "boho": 3, "dark academia": 2, "old money": 1, "minimalist": 2, "grunge": 0, "cyber neon": 0, "vaporwave": 0 }
+        },
+        {
+          "id": "energy",
+          "label": "Energy Drink or Neon Soda",
+          "weights": { "cyber neon": 5, "vaporwave": 4, "grunge": 2, "minimalist": 0, "dark academia": 0, "old money": 0, "cottagecore": 0, "boho": 0 }
+        },
+        {
+          "id": "wine",
+          "label": "Fine Wine or Champagne",
+          "weights": { "old money": 5, "dark academia": 3, "minimalist": 2, "boho": 1, "cottagecore": 1, "grunge": 1, "cyber neon": 0, "vaporwave": 1 }
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "text": "Which season makes you feel most alive?",
+      "options": [
+        {
+          "id": "autumn",
+          "label": "Autumn (Rain, fallen leaves, cozy vibes)",
+          "weights": { "dark academia": 5, "cottagecore": 3, "grunge": 3, "boho": 2, "old money": 2, "minimalist": 1, "cyber neon": 0, "vaporwave": 0 }
+        },
+        {
+          "id": "winter",
+          "label": "Winter (Snow, silence, cold nights)",
+          "weights": { "minimalist": 4, "dark academia": 2, "cyber neon": 3, "old money": 3, "grunge": 2, "vaporwave": 1, "cottagecore": 1, "boho": 0 }
+        },
+        {
+          "id": "spring",
+          "label": "Spring (Flowers, new beginnings, sun)",
+          "weights": { "cottagecore": 5, "boho": 4, "old money": 2, "minimalist": 2, "vaporwave": 3, "dark academia": 0, "grunge": 0, "cyber neon": 0 }
+        },
+        {
+          "id": "summer",
+          "label": "Summer (Beach, late nights, festivals)",
+          "weights": { "vaporwave": 5, "boho": 4, "cyber neon": 4, "old money": 3, "minimalist": 1, "grunge": 1, "cottagecore": 1, "dark academia": 0 }
+        }
+      ]
+    },
+    {
+      "id": "accessory",
+      "text": "You never leave the house without...",
+      "options": [
+        {
+          "id": "headphones",
+          "label": "Big Headphones",
+          "weights": { "cyber neon": 4, "grunge": 3, "vaporwave": 3, "minimalist": 1, "dark academia": 0, "old money": 0, "cottagecore": 0, "boho": 0 }
+        },
+        {
+          "id": "book",
+          "label": "A Book or Notebook",
+          "weights": { "dark academia": 5, "cottagecore": 2, "boho": 2, "old money": 1, "minimalist": 1, "grunge": 0, "cyber neon": 0, "vaporwave": 0 }
+        },
+        {
+          "id": "jewelry",
+          "label": "Rings, necklaces, or a watch",
+          "weights": { "old money": 4, "boho": 4, "grunge": 3, "minimalist": 2, "vaporwave": 2, "dark academia": 1, "cottagecore": 1, "cyber neon": 1 }
+        },
+        {
+          "id": "bag",
+          "label": "A tote bag full of random things",
+          "weights": { "cottagecore": 4, "boho": 5, "dark academia": 3, "grunge": 2, "vaporwave": 1, "minimalist": 0, "old money": 0, "cyber neon": 0 }
+        }
+      ]
+    },
+    {
+      "id": "vacation",
+      "text": "Pick a dream destination.",
+      "options": [
+        {
+          "id": "tokyo",
+          "image": "images/quizzes/quiz_questions/tokyo_quiz.jpg",
+          "label": "Tokyo (Neon lights & chaos)",
+          "weights": { "cyber neon": 5, "vaporwave": 4, "grunge": 1, "minimalist": 1, "dark academia": 0, "old money": 0, "cottagecore": 0, "boho": 0 }
+        },
+        {
+          "id": "paris",
+          "image": "images/quizzes/quiz_questions/city_paris.jpg",
+          "label": "Paris (Museums & cafes)",
+          "weights": { "old money": 4, "dark academia": 4, "minimalist": 2, "boho": 1, "cottagecore": 1, "cyber neon": 0, "grunge": 0, "vaporwave": 1 }
+        },
+        {
+          "id": "bali",
+          "image": "images/quizzes/quiz_questions/bali_quiz.jpg",
+          "label": "Bali (Nature & freedom)",
+          "weights": { "boho": 5, "cottagecore": 3, "vaporwave": 2, "minimalist": 2, "old money": 1, "grunge": 0, "dark academia": 0, "cyber neon": 0 }
+        },
+        {
+          "id": "london",
+          "image": "images/quizzes/quiz_questions/london_quiz.jpg",
+          "label": "London or Edinburgh (Rain & history)",
+          "weights": { "dark academia": 5, "grunge": 3, "old money": 3, "minimalist": 1, "cottagecore": 1, "cyber neon": 0, "vaporwave": 0, "boho": 0 }
+        }
+      ]
+    },
+    {
+      "id": "quote",
+      "text": "Which phrase resonates with you?",
+      "options": [
+        {
+          "id": "less_is_more",
+          "label": "'Less is more.'",
+          "weights": { "minimalist": 5, "old money": 3, "dark academia": 1, "cyber neon": 1, "cottagecore": 0, "boho": 0, "grunge": 0, "vaporwave": 0 }
+        },
+        {
+          "id": "chaos",
+          "label": "'I find peace in the chaos.'",
+          "weights": { "grunge": 5, "cyber neon": 4, "vaporwave": 3, "boho": 2, "dark academia": 1, "cottagecore": 0, "old money": 0, "minimalist": 0 }
+        },
+        {
+          "id": "dream",
+          "label": "'Life is but a dream.'",
+          "weights": { "vaporwave": 5, "cottagecore": 4, "boho": 3, "dark academia": 2, "old money": 0, "minimalist": 0, "grunge": 1, "cyber neon": 1 }
+        },
+        {
+          "id": "knowledge",
+          "label": "'Knowledge is power.'",
+          "weights": { "dark academia": 5, "old money": 4, "minimalist": 2, "cyber neon": 2, "grunge": 1, "cottagecore": 0, "boho": 0, "vaporwave": 0 }
+        }
+      ]
+    },
+    {
+      "id": "color_vibe",
+      "text": "Finally, which color group calls your name?",
+      "options": [
+        {
+          "id": "dark",
+          "label": "Black, Grey, Navy",
+          "weights": { "dark academia": 3, "grunge": 5, "minimalist": 4, "cyber neon": 2, "old money": 2, "vaporwave": 0, "cottagecore": 0, "boho": 0 }
+        },
+        {
+          "id": "earth",
+          "label": "Green, Brown, Beige",
+          "weights": { "cottagecore": 5, "boho": 5, "dark academia": 2, "old money": 2, "minimalist": 2, "grunge": 1, "vaporwave": 0, "cyber neon": 0 }
+        },
+        {
+          "id": "neon",
+          "label": "Pink, Purple, Cyan",
+          "weights": { "cyber neon": 5, "vaporwave": 5, "grunge": 1, "boho": 1, "minimalist": 0, "dark academia": 0, "old money": 0, "cottagecore": 0 }
+        },
+        {
+          "id": "white",
+          "label": "White, Cream, Gold",
+          "weights": { "old money": 5, "minimalist": 4, "cottagecore": 2, "boho": 1, "vaporwave": 1, "dark academia": 1, "cyber neon": 0, "grunge": 0 }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "dark academia": {
+      "title": "Dark Academia",
+      "desc": "You are the protagonist of a mystery novel set in an ancient university. Your soul is crafted from the scent of old paper, the sound of rain against a library window, and the bitter taste of black coffee. You find profound beauty in knowledge, melancholy, and the whispers of history. While others chase the sun, you find comfort in the shadows. Moody, intellectual, and timeless.",
+      "image": "images/quizzes/results/dark_academia.jpeg"
+    },
+    "cyber neon": {
+      "title": "Cyberpunk Neon",
+      "desc": "You are a glitch in the system, a rebel thriving under the electric hum of a neon metropolis. Your spirit beats in sync with high-speed data streams and the chaotic energy of the night. You don't look back at the past; you are racing towards the future. Bold, futuristic, and unapologetically distinct, you don't just survive the concrete jungle—you illuminate it.",
+      "image": "images/quizzes/results/cyber_neon.jpeg"
+    },
+    "cottagecore": {
+      "title": "Cottagecore",
+      "desc": "You are a gentle soul woven from sunlight, wildflowers, and the smell of fresh-baked bread. While the world rushes by in a panic, you find paradise in the slow, simple rhythms of nature. Your heart is a hidden garden where kindness blooms and time stands still. You prefer the whisper of the wind to the noise of the city. Soft, nurturing, and endlessly peaceful.",
+      "image": "images/quizzes/results/cottagecore.jpeg"
+    },
+    "old money": {
+      "title": "Old Money Aesthetic",
+      "desc": "You embody the art of understated elegance and timeless heritage. Like a vintage sailboat cutting through calm waters, your presence is commanded by grace, quality, and tradition. You reject fleeting trends in favor of things that last forever. You prefer a life of quiet luxury, where silence speaks louder than noise and style never fades. Sophisticated, polished, and effortlessly elite.",
+      "image": "images/quizzes/results/old_money.jpeg"
+    },
+    "grunge": {
+      "title": "90s Grunge",
+      "desc": "You are the raw, distorted chord in a world of perfect pop songs. A rebel with a cause, you wear your emotions like armor and find beauty in the broken, the messy, and the real. You reject the polished lie for the gritty truth. Your aesthetic is not just a style, it's a statement against the ordinary. Authentic, intense, and fearlessly imperfect.",
+      "image": "images/quizzes/results/grunge.jpeg"
+    },
+    "minimalist": {
+      "title": "Minimalist Zen",
+      "desc": "You are the breath of fresh air in a cluttered room. Your mind is a sanctuary of clarity, precision, and purpose. By stripping away the noise and the unnecessary, you reveal the true essence of beauty. You don't need 'more' to be whole; you find perfection in the empty space. Calm, collected, and strikingly modern.",
+      "image": "images/quizzes/results/minimalist.jpeg"
+    },
+    "vaporwave": {
+      "title": "Vaporwave Dream",
+      "desc": "You exist in a nostalgic daydream of a time that never quite was. Your reality is filtered through a haze of VHS static, pastel sunsets, and lo-fi melodies. You find comfort in the surreal and the retro-futuristic, floating in digital clouds while the world glitches around you. Dreamy, aesthetic, and beautifully lost in time.",
+      "image": "images/quizzes/results/vaporwave.jpeg"
+    },
+    "boho": {
+      "title": "Boho Indie",
+      "desc": "You are a wildflower refusing to be potted. A wanderer at heart, your soul is painted with the colors of the earth and the stories of a thousand travels. You reject the conventional path to dance to your own rhythm, finding art in every corner of existence. You are connected to the universe in a way others can't see. Free-spirited, creative, and limitless.",
+      "image": "images/quizzes/results/boho.jpeg"
+    }
+  }
+}

@@ -4,7 +4,7 @@
     "title": "Which Country Should You Live In?",
     "description": "Are you a mountain person or a beach lover? Take this personality test to find out which country matches your lifestyle perfectly.",
     "type": "Personality",
-    "categories": ["Personality","Travel"],
+    "categories": ["Personality","Lifestyle"],
     "cover": "images/quizzes/quiz_thumbs/country-fit.jpg",
     "file": "data/quizzes/country-fit.json",
     "createdAt": "2025-08-25T10:00:00Z",
@@ -117,5 +117,41 @@
     "file": "data/quizzes/history_egypt_01.json",
     "createdAt": "2025-09-25T10:00:00Z",
     "updatedAt": "2025-09-25T10:00:00Z"
+  },
+
+  {
+    "id": "ultimate_aesthetic",
+    "title": "What Is Your True Aesthetic Vibe?",
+    "description": "Are you a hopeless romantic living in a novel, a futuristic rebel, or a minimalist perfectionist? Answer these 10 deep questions to find the exact color palette of your soul.",
+    "type": "personality",
+    "categories": ["Personality","Lifestyle"],
+    "cover": "images/quizzes/quiz_thumbs/aesthetic_vibes.jpeg",
+    "file": "data/quizzes/aura_color.json",
+    "createdAt": "2025-12-29T10:00:00Z",
+    "updatedAt": "2025-12-29T10:00:00Z"
+  },
+
+  {
+    "id": "power_color",
+    "title": "What Is Your Personal 'Power Color'?",
+    "description": "Colors aren't just visual—they are energy. Are you a fiery leader, a calm visionary, or a mysterious creative? Find out the color that represents your true power.",
+    "type": "personality",
+    "categories": ["Personality","Lifestyle"],
+    "cover": "images/quizzes/quiz_thumbs/power_color.png",
+    "file": "data/quizzes/color_power.json",
+    "createdAt": "2025-12-30T10:00:00Z",
+    "updatedAt": "2025-12-30T10:00:00Z"
+  },
+
+  {
+    "id": "cinematic_universe_ultimate",
+    "title": "Which Cinematic Universe Is Your Soul Trapped In?",
+    "description": "Are you the hero of a dark noir thriller, a royal in a period drama, or a rebel in a retro-horror mystery? Answer these 10 questions to find the director of your life.",
+    "type": "personality",
+    "categories": ["Personality","Lifestyle","Movies"],
+    "cover": "images/quizzes/quiz_thumbs/cinematic_universe.jpeg",
+    "file": "data/quizzes/cinematic_universe.json",
+    "createdAt": "2025-12-30T10:00:00Z",
+    "updatedAt": "2025-12-30T10:00:00Z"
   }
 ]

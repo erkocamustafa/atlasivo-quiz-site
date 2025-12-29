@@ -1,0 +1,162 @@
+{
+  "id": "power_color",
+  "title": "What Is Your Personal 'Power Color'?",
+  "description": "Colors aren't just visual—they are energy. Are you a fiery leader, a calm visionary, or a mysterious creative? Find out the color that represents your true power.",
+  "mode": "personality",
+  "shareText": "My personal power color is: ",
+  "questions": [
+    {
+      "id": "role_group",
+      "text": "In a group project, what is your natural role?",
+      "options": [
+        {
+          "id": "leader",
+          "label": "The Leader: I take charge and make decisions.",
+          "weights": { "red fire": 5, "blue trust": 1, "yellow creative": 2, "black luxury": 3 }
+        },
+        {
+          "id": "mediator",
+          "label": "The Peacemaker: I ensure everyone gets along.",
+          "weights": { "red fire": 0, "blue trust": 5, "yellow creative": 2, "black luxury": 1 }
+        },
+        {
+          "id": "creator",
+          "label": "The Idea Machine: I come up with the concepts.",
+          "weights": { "red fire": 2, "blue trust": 1, "yellow creative": 5, "black luxury": 1 }
+        },
+        {
+          "id": "planner",
+          "label": "The Strategist: I plan the details quietly.",
+          "weights": { "red fire": 1, "blue trust": 3, "yellow creative": 0, "black luxury": 5 }
+        }
+      ]
+    },
+    {
+      "id": "problem_solving",
+      "text": "How do you handle a sudden crisis?",
+      "options": [
+        {
+          "id": "action",
+          "label": "I act immediately, no hesitation.",
+          "weights": { "red fire": 5, "blue trust": 1, "yellow creative": 2, "black luxury": 2 }
+        },
+        {
+          "id": "analyze",
+          "label": "I step back and analyze the data first.",
+          "weights": { "red fire": 1, "blue trust": 5, "yellow creative": 1, "black luxury": 4 }
+        },
+        {
+          "id": "innovate",
+          "label": "I look for a creative, out-of-the-box solution.",
+          "weights": { "red fire": 2, "blue trust": 2, "yellow creative": 5, "black luxury": 1 }
+        },
+        {
+          "id": "calm",
+          "label": "I stay silent and keep my poker face.",
+          "weights": { "red fire": 0, "blue trust": 3, "yellow creative": 0, "black luxury": 5 }
+        }
+      ]
+    },
+    {
+      "id": "dream_workspace",
+      "text": "Pick your ideal workspace vibe.",
+      "image": "images/quizzes/quiz_questions/workspace_quiz.jpg",
+      "options": [
+        {
+          "id": "skyscraper",
+          "label": "A corner office in a high-rise building.",
+          "weights": { "red fire": 4, "blue trust": 2, "yellow creative": 0, "black luxury": 5 }
+        },
+        {
+          "id": "studio",
+          "label": "A messy, colorful art studio full of light.",
+          "weights": { "red fire": 1, "blue trust": 0, "yellow creative": 5, "black luxury": 0 }
+        },
+        {
+          "id": "home",
+          "label": "A clean, quiet, organized home office.",
+          "weights": { "red fire": 0, "blue trust": 5, "yellow creative": 1, "black luxury": 2 }
+        },
+        {
+          "id": "co-working",
+          "label": "A busy, energetic co-working space.",
+          "weights": { "red fire": 5, "blue trust": 3, "yellow creative": 4, "black luxury": 0 }
+        }
+      ]
+    },
+    {
+      "id": "motivation",
+      "text": "What motivates you the most?",
+      "options": [
+        {
+          "id": "winning",
+          "label": "Winning and being the best.",
+          "weights": { "red fire": 5, "blue trust": 1, "yellow creative": 1, "black luxury": 3 }
+        },
+        {
+          "id": "helping",
+          "label": "Helping others and building trust.",
+          "weights": { "red fire": 1, "blue trust": 5, "yellow creative": 2, "black luxury": 1 }
+        },
+        {
+          "id": "expression",
+          "label": "Expressing myself and creating new things.",
+          "weights": { "red fire": 2, "blue trust": 1, "yellow creative": 5, "black luxury": 1 }
+        },
+        {
+          "id": "control",
+          "label": "Having control and independence.",
+          "weights": { "red fire": 3, "blue trust": 2, "yellow creative": 0, "black luxury": 5 }
+        }
+      ]
+    },
+    {
+      "id": "animal",
+      "text": "Which animal represents your spirit?",
+      "options": [
+        {
+          "id": "lion",
+          "label": "Lion (Bold & Dominant)",
+          "weights": { "red fire": 5, "blue trust": 2, "yellow creative": 1, "black luxury": 3 }
+        },
+        {
+          "id": "dolphin",
+          "label": "Dolphin (Social & Intelligent)",
+          "weights": { "red fire": 2, "blue trust": 4, "yellow creative": 5, "black luxury": 0 }
+        },
+        {
+          "id": "elephant",
+          "label": "Elephant (Wise & Loyal)",
+          "weights": { "red fire": 0, "blue trust": 5, "yellow creative": 1, "black luxury": 2 }
+        },
+        {
+          "id": "panther",
+          "label": "Panther (Stealthy & Mysterious)",
+          "weights": { "red fire": 1, "blue trust": 1, "yellow creative": 0, "black luxury": 5 }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "red fire": {
+      "title": "Crimson Fire",
+      "desc": "You are a natural-born leader. Your power color is a bold, intense Red. You are passionate, energetic, and never afraid to take risks. You command attention when you walk into a room.",
+      "image": "images/quizzes/results/red_fire.jpeg"
+    },
+    "blue trust": {
+      "title": "Royal Blue",
+      "desc": "You are the anchor. Your power color is a deep, trustworthy Royal Blue. You are reliable, wise, and calm under pressure. People come to you when they need clarity and stability.",
+      "image": "images/quizzes/results/blue_trust.jpeg"
+    },
+    "yellow creative": {
+      "title": "Electric Yellow",
+      "desc": "You are the visionary. Your power color is a bright, optimistic Electric Yellow. You see the world differently and bring innovation wherever you go. Your energy is contagious.",
+      "image": "images/quizzes/results/yellow_creative.jpeg"
+    },
+    "black luxury": {
+      "title": "Onyx Black",
+      "desc": "You are the enigma. Your power color is a sophisticated Onyx Black. You value privacy, elegance, and control. You don't need to shout to be heard; your presence is enough.",
+      "image": "images/quizzes/results/black_luxury.jpeg"
+    }
+  }
+}

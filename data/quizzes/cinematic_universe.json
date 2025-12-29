@@ -1,0 +1,315 @@
+{
+  "id": "cinematic_universe_ultimate",
+  "title": "Which Cinematic Universe Is Your Soul Trapped In?",
+  "description": "Are you the hero of a dark noir thriller, a royal in a period drama, or a rebel in a retro-horror mystery? Answer these 10 questions to find the director of your life.",
+  "mode": "personality",
+  "shareText": "I belong in this cinematic universe: ",
+  "questions": [
+    {
+      "id": "opening_scene",
+      "text": "The movie of your life begins. What is the opening shot?",
+      "options": [
+        {
+          "id": "rain_city",
+          "image": "images/quizzes/quiz_questions/rain_city.jpg",
+          "label": "A dark, rainy city skyline with gargoyles and shadows.",
+          "weights": { "gotham_noir": 5, "cyber_dystopia": 2, "stranger_retro": 1, "mcu_hero": 0, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "ballroom",
+          "image": "images/quizzes/quiz_questions/ballroom.jpg",
+          "label": "A grand ballroom filled with dancers in elegant gowns.",
+          "weights": { "regency_royal": 5, "wizarding": 2, "wes_aesthetic": 1, "ghibli_nature": 0, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        },
+        {
+          "id": "spaceship",
+          "image": "images/quizzes/quiz_questions/spaceship.jpg",
+          "label": "A spaceship landing on a dusty, orange planet.",
+          "weights": { "cyber_dystopia": 5, "mcu_hero": 3, "stranger_retro": 1, "gotham_noir": 0, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "meadow",
+          "image": "images/quizzes/quiz_questions/meadow.jpg",
+          "label": "A peaceful meadow with fluffy white clouds passing by.",
+          "weights": { "ghibli_nature": 5, "wes_aesthetic": 3, "wizarding": 1, "regency_royal": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        }
+      ]
+    },
+    {
+      "id": "hero_flaw",
+      "text": "Every main character has a flaw. What is yours?",
+      "options": [
+        {
+          "id": "arrogance",
+          "label": "I am too arrogant and think I can fix everything alone.",
+          "weights": { "mcu_hero": 5, "gotham_noir": 4, "regency_royal": 2, "cyber_dystopia": 1, "wizarding": 0, "stranger_retro": 0, "wes_aesthetic": 0, "ghibli_nature": 0 }
+        },
+        {
+          "id": "curiosity",
+          "label": "I am too curious and uncover secrets I shouldn't.",
+          "weights": { "stranger_retro": 5, "wizarding": 4, "wes_aesthetic": 3, "cyber_dystopia": 2, "mcu_hero": 0, "gotham_noir": 1, "regency_royal": 0, "ghibli_nature": 0 }
+        },
+        {
+          "id": "emotion",
+          "label": "I feel too much and get attached too easily.",
+          "weights": { "ghibli_nature": 5, "regency_royal": 4, "wes_aesthetic": 3, "wizarding": 2, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 1 }
+        },
+        {
+          "id": "trust",
+          "label": "I don't trust anyone. I only rely on myself.",
+          "weights": { "cyber_dystopia": 5, "gotham_noir": 5, "mcu_hero": 2, "stranger_retro": 1, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        }
+      ]
+    },
+    {
+      "id": "weapon",
+      "text": "Pick your item of power.",
+      "options": [
+        {
+          "id": "wand",
+          "label": "A wooden wand with a phoenix feather core.",
+          "weights": { "wizarding": 5, "ghibli_nature": 1, "regency_royal": 0, "wes_aesthetic": 0, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        },
+        {
+          "id": "tech_suit",
+          "label": "Nanotech armor or a high-tech gadget.",
+          "weights": { "mcu_hero": 5, "cyber_dystopia": 4, "gotham_noir": 3, "stranger_retro": 1, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "letter",
+          "label": "A handwritten love letter sealed with wax.",
+          "weights": { "regency_royal": 5, "wes_aesthetic": 4, "ghibli_nature": 2, "stranger_retro": 0, "wizarding": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0 }
+        },
+        {
+          "id": "camera",
+          "label": "A vintage camera or a walkie-talkie.",
+          "weights": { "wes_aesthetic": 5, "stranger_retro": 5, "ghibli_nature": 1, "regency_royal": 0, "wizarding": 0, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0 }
+        }
+      ]
+    },
+    {
+      "id": "villain",
+      "text": "Who is the antagonist of your story?",
+      "options": [
+        {
+          "id": "monster",
+          "label": "A faceless monster from another dimension.",
+          "weights": { "stranger_retro": 5, "mcu_hero": 3, "wizarding": 2, "gotham_noir": 0, "cyber_dystopia": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "society",
+          "label": "Strict social rules and family expectations.",
+          "weights": { "regency_royal": 5, "wes_aesthetic": 3, "ghibli_nature": 1, "wizarding": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        },
+        {
+          "id": "corruption",
+          "label": "A corrupt government or a crime boss.",
+          "weights": { "gotham_noir": 5, "cyber_dystopia": 5, "mcu_hero": 2, "stranger_retro": 1, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "dark_lord",
+          "label": "A powerful dark sorcerer.",
+          "weights": { "wizarding": 5, "mcu_hero": 1, "stranger_retro": 1, "ghibli_nature": 0, "regency_royal": 0, "wes_aesthetic": 0, "gotham_noir": 0, "cyber_dystopia": 0 }
+        }
+      ]
+    },
+    {
+      "id": "color_palette",
+      "text": "What colors dominate your world?",
+      "options": [
+        {
+          "id": "neon_dark",
+          "label": "Black, Neon Blue, Hot Pink.",
+          "weights": { "cyber_dystopia": 5, "mcu_hero": 2, "stranger_retro": 4, "gotham_noir": 1, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "pastel_sym",
+          "label": "Pastel Pink, Mint Green, Mustard Yellow.",
+          "weights": { "wes_aesthetic": 5, "regency_royal": 3, "ghibli_nature": 2, "stranger_retro": 1, "wizarding": 0, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0 }
+        },
+        {
+          "id": "moody_grey",
+          "label": "Charcoal Grey, Rain Silver, Midnight Blue.",
+          "weights": { "gotham_noir": 5, "cyber_dystopia": 2, "mcu_hero": 1, "wizarding": 2, "stranger_retro": 1, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "gold_green",
+          "label": "Gold, Emerald Green, Deep Burgundy.",
+          "weights": { "wizarding": 5, "regency_royal": 4, "ghibli_nature": 1, "mcu_hero": 0, "wes_aesthetic": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        }
+      ]
+    },
+    {
+      "id": "soundtrack",
+      "text": "Choose the soundtrack for your life.",
+      "options": [
+        {
+          "id": "synthwave",
+          "label": "80s Synthwave and electronic beats.",
+          "weights": { "stranger_retro": 5, "cyber_dystopia": 4, "mcu_hero": 1, "gotham_noir": 0, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "orchestra",
+          "label": "Epic orchestral music with heavy drums.",
+          "weights": { "mcu_hero": 5, "gotham_noir": 4, "wizarding": 3, "cyber_dystopia": 2, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0, "stranger_retro": 0 }
+        },
+        {
+          "id": "piano",
+          "label": "A soft, emotional piano or violin solo.",
+          "weights": { "ghibli_nature": 5, "regency_royal": 5, "wes_aesthetic": 2, "wizarding": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        },
+        {
+          "id": "indie_folk",
+          "label": "Quirky indie folk or acoustic guitar.",
+          "weights": { "wes_aesthetic": 5, "ghibli_nature": 2, "stranger_retro": 1, "regency_royal": 0, "wizarding": 0, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0 }
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "text": "How do you get around?",
+      "options": [
+        {
+          "id": "flying_car",
+          "label": "A flying car or spaceship.",
+          "weights": { "cyber_dystopia": 5, "mcu_hero": 4, "wizarding": 1, "gotham_noir": 1, "stranger_retro": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "carriage",
+          "label": "A horse-drawn carriage.",
+          "weights": { "regency_royal": 5, "wizarding": 2, "wes_aesthetic": 1, "ghibli_nature": 0, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        },
+        {
+          "id": "bicycle",
+          "label": "Riding a bicycle with friends.",
+          "weights": { "stranger_retro": 5, "ghibli_nature": 3, "wes_aesthetic": 3, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "wizarding": 0, "regency_royal": 0 }
+        },
+        {
+          "id": "muscle_car",
+          "label": "A black armored car or muscle car.",
+          "weights": { "gotham_noir": 5, "mcu_hero": 2, "stranger_retro": 2, "cyber_dystopia": 1, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        }
+      ]
+    },
+    {
+      "id": "quote",
+      "text": "Pick a quote that speaks to you.",
+      "options": [
+        {
+          "id": "darkness",
+          "label": "'It's not who I am underneath, but what I do that defines me.'",
+          "weights": { "gotham_noir": 5, "mcu_hero": 2, "cyber_dystopia": 2, "wizarding": 1, "stranger_retro": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "magic",
+          "label": "'Happiness can be found even in the darkest of times.'",
+          "weights": { "wizarding": 5, "ghibli_nature": 3, "regency_royal": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "quirky",
+          "label": "'I think we are just going to have to be secretly in love with each other.'",
+          "weights": { "wes_aesthetic": 5, "regency_royal": 4, "stranger_retro": 2, "ghibli_nature": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "wizarding": 0 }
+        },
+        {
+          "id": "survival",
+          "label": "'I survive. That's what I do.'",
+          "weights": { "cyber_dystopia": 5, "stranger_retro": 3, "gotham_noir": 2, "mcu_hero": 1, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        }
+      ]
+    },
+    {
+      "id": "companion",
+      "text": "Who is by your side?",
+      "options": [
+        {
+          "id": "group",
+          "label": "A group of misfit kids on bikes.",
+          "weights": { "stranger_retro": 5, "wizarding": 3, "mcu_hero": 1, "wes_aesthetic": 2, "gotham_noir": 0, "cyber_dystopia": 0, "regency_royal": 0, "ghibli_nature": 0 }
+        },
+        {
+          "id": "butler",
+          "label": "A loyal butler or AI assistant.",
+          "weights": { "gotham_noir": 5, "mcu_hero": 4, "regency_royal": 2, "cyber_dystopia": 3, "wizarding": 0, "stranger_retro": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "creature",
+          "label": "A magical creature or spirit.",
+          "weights": { "ghibli_nature": 5, "wizarding": 4, "wes_aesthetic": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0, "regency_royal": 0 }
+        },
+        {
+          "id": "rebel",
+          "label": "A fellow rebel fighter.",
+          "weights": { "cyber_dystopia": 5, "mcu_hero": 2, "stranger_retro": 1, "gotham_noir": 1, "wizarding": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "text": "How does your movie end?",
+      "options": [
+        {
+          "id": "victory",
+          "label": "Standing on a rooftop looking over the city I saved.",
+          "weights": { "gotham_noir": 5, "mcu_hero": 5, "cyber_dystopia": 3, "stranger_retro": 2, "wizarding": 1, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "wedding",
+          "label": "A beautiful wedding in a garden.",
+          "weights": { "regency_royal": 5, "wes_aesthetic": 3, "ghibli_nature": 2, "wizarding": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        },
+        {
+          "id": "unknown",
+          "label": "Running towards the unknown future.",
+          "weights": { "cyber_dystopia": 5, "stranger_retro": 4, "wizarding": 2, "mcu_hero": 1, "gotham_noir": 0, "regency_royal": 0, "ghibli_nature": 0, "wes_aesthetic": 0 }
+        },
+        {
+          "id": "peace",
+          "label": "Sitting quietly, drinking tea, finally at peace.",
+          "weights": { "ghibli_nature": 5, "wes_aesthetic": 4, "regency_royal": 1, "wizarding": 1, "mcu_hero": 0, "gotham_noir": 0, "cyber_dystopia": 0, "stranger_retro": 0 }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "wizarding": {
+      "title": "The Wizarding World",
+      "desc": "You belong in a world of ancient magic, hidden castles, and deep loyalty. Like a student at Hogwarts, you value bravery and friendship. Your life is filled with wonder, secrets, and a touch of mischief. Your Palette: Gold, Emerald, Burgundy. Create it at tools.atlasivo.com",
+      "image": "images/quizzes/results/wizarding_world.jpeg"
+    },
+    "mcu_hero": {
+      "title": "The Superhero Multiverse",
+      "desc": "You belong in the Avengers Tower. You are ambitious, tech-savvy, and ready to save the world (with style). You love high stakes and modern technology. Your life is an action-packed blockbuster. Your Palette: Iron Red, Electric Blue, Silver. Generate it at tools.atlasivo.com",
+      "image": "images/quizzes/results/mcu_hero.jpeg"
+    },
+    "gotham_noir": {
+      "title": "Gotham Noir",
+      "desc": "You are the silent protector. You live in a world of shadows, rain, and moral complexity. Like Batman, you are disciplined, mysterious, and driven by justice. You find comfort in the dark. Your Palette: Midnight Black, Rain Grey, Caution Yellow. Create it at tools.atlasivo.com",
+      "image": "images/quizzes/results/gotham_noir.jpeg"
+    },
+    "ghibli_nature": {
+      "title": "Studio Ghibli Nature",
+      "desc": "You live in a cozy, hand-drawn dream. You appreciate the small things: wind in the grass, good food, and kindness. Your soul is gentle and resilient. You find magic in nature. Your Palette: Grass Green, Sky Blue, Cloud White. Generate it at tools.atlasivo.com",
+      "image": "images/quizzes/results/ghibli_cozy.jpeg"
+    },
+    "cyber_dystopia": {
+      "title": "Dune Rebel",
+      "desc": "You are a rebel in a neon-lit future. Think Blade Runner or Dune. You are a survivor who fights against the system. You love technology, freedom, and intensity. Your Palette: Neon Purple, Acid Green, Sand Orange. Create it at tools.atlasivo.com",
+      "image": "images/quizzes/results/dune_rebel.jpeg"
+    },
+    "regency_royal": {
+      "title": "Regency Era Romance",
+      "desc": "You belong in Bridgerton or Pride & Prejudice. You value elegance, etiquette, and romance. You love balls, handwritten letters, and sophisticated drama. You are the diamond of the season. Your Palette: Pastel Blue, Soft Pink, Cream. Generate it at tools.atlasivo.com",
+      "image": "images/quizzes/results/regency_royal.jpeg"
+    },
+    "stranger_retro": {
+      "title": "Retro 80s Mystery",
+      "desc": "You live in Hawkins, Indiana. You love 80s music, neon lights, and solving mysteries with your friends. You are brave, curious, and a little bit nostalgic. You face monsters head-on. Your Palette: Retro Red, Navy Blue, Neon Yellow. Create it at tools.atlasivo.com",
+      "image": "images/quizzes/results/stranger_retro.png"
+    },
+    "wes_aesthetic": {
+      "title": "Wes Anderson Aesthetic",
+      "desc": "You live in a perfectly symmetrical, colorful world. You are quirky, artistic, and observant. You find beauty in strange details and vintage objects. Your life is a work of art. Your Palette: Mustard Yellow, Salmon Pink, Teal. Generate it at tools.atlasivo.com",
+      "image": "images/quizzes/results/wes_aesthetic.png"
+    }
+  }
+}
