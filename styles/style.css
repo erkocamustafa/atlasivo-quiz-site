@@ -546,7 +546,19 @@ img {
     padding-bottom: 1rem !important;
   }
   
-  .quiz-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
-  .quiz-card img { height: 140px; }
+  .container { padding: 16px 12px; }
+  .quiz-grid { grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 2rem; }
+  .quiz-card { max-width: none; width: 100%; }
+  .quiz-card .thumb { border-radius: 14px; box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+  .quiz-card h3 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin: 0.8rem 0 0.4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .quiz-card .pill { font-size: 1.1rem; }
   .q-media.thumb { max-width: 92vw; margin: 0 auto 16px; }
 }
